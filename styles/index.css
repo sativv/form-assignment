@@ -67,6 +67,15 @@ input, textarea {
 }
 
 
+input{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FDFFFF;
+}
+
 .row-1{
     max-width: 400px;
 }
@@ -96,7 +105,12 @@ input, textarea {
     color: white;
     margin-top: 56px;
     margin-left: 120px;
+    cursor: pointer;
 
+}
+
+.btn-grey:hover {
+    background: #143b41;
 }
 
 .duck {
